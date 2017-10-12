@@ -1,0 +1,69 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background:#deefef;
+   
+    
+    .wrapper{
+        width: 1100px;
+        height: auto;
+        margin: 40px auto;
+        padding-bottom: 30px;
+        background: white;
+        opacity: 0.8;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+        h1{
+            padding-top: 60px;
+        }
+        .axis{
+            font: 12px Tahoma;
+            color: white;
+        }
+        
+        .legendLable{
+            font: 12px Tahoma;
+        }
+        .y line , .y path{
+            display: none;
+        }
+        div.tooltip{
+            position: absolute;
+            width: auto;
+            height: auto;
+            padding: 5px;
+            border: none;
+            border-radius: 8px;
+            background: black ;
+            font-family: sans-serif;
+            color: white;
+            text-align: center;
+            .year{
+                font-size: 18px;
+            }
+            .temp{
+                font-size: 15px;
+            }
+            .variance {
+                font-size: 12px;
+            }
+        }
+            
+    }
+    
+    hr{
+        border-color: #a0beef;
+    }
+    
+    footer{
+        font : 14px Tahoma;
+        padding-bottom: 20px;
+    }
+    
+    
+}
+
+
+
+
+
